@@ -1,0 +1,5 @@
+CREATE TABLE employee (
+    id            BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    employee_name VARCHAR(255) NOT NULL,
+    email         VARCHAR(255) NOT NULL UNIQUE
+);
